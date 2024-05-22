@@ -6,11 +6,7 @@ import Navbar from "../Components/Navbar"; // Importe o componente Navbar
 
 describe("Navbar", () => {
   it("deve conter links válidos para as páginas", () => {
-    const { getByText } = render(
-      <Router>
-        <Navbar />
-      </Router>
-    );
+    const { getByText } = render(<Navbar />);
 
     // Verifique se os links estão presentes e apontam para os locais corretos
     expect(getByText("Home").getAttribute("href")).toBe("/");
