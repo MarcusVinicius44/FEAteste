@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 50px;
+  }
+  
+  .localização {
+    background: rgb(254,148,0);
+    background: linear-gradient(90deg, rgba(254,148,0,1) 0%, rgba(255,255,255,1) 100%);
+    padding: 85px;
+    }
+
+  .p {
+    font-size: 25px;
+  }
